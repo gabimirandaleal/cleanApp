@@ -7,18 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2F2325202981CF3B0021E929 /* AccountModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F23251F2981CF3B0021E929 /* AccountModel.swift */; };
-		2F2325222981CF850021E929 /* AddAccount.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F2325212981CF850021E929 /* AddAccount.swift */; };
+		2F23255E2981D1070021E929 /* CleanApp.docc in Sources */ = {isa = PBXBuildFile; fileRef = 2F23255D2981D1070021E929 /* CleanApp.docc */; };
+		2F23255F2981D1070021E929 /* CleanApp.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F23255C2981D1070021E929 /* CleanApp.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		2F2325122981CDFD0021E929 /* Domain.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Domain.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		2F23251F2981CF3B0021E929 /* AccountModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountModel.swift; sourceTree = "<group>"; };
-		2F2325212981CF850021E929 /* AddAccount.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddAccount.swift; sourceTree = "<group>"; };
+		2F2325592981D1070021E929 /* CleanApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CleanApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F23255C2981D1070021E929 /* CleanApp.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CleanApp.h; sourceTree = "<group>"; };
+		2F23255D2981D1070021E929 /* CleanApp.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = CleanApp.docc; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		2F23250F2981CDFD0021E929 /* Frameworks */ = {
+		2F2325562981D1070021E929 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -28,78 +28,78 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		2F2324F72981CDC50021E929 = {
+		2F23254F2981D1070021E929 = {
 			isa = PBXGroup;
 			children = (
-				2F2325132981CDFD0021E929 /* Domain */,
-				2F2325022981CDC50021E929 /* Products */,
+				2F23255B2981D1070021E929 /* CleanApp */,
+				2F23255A2981D1070021E929 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		2F2325022981CDC50021E929 /* Products */ = {
+		2F23255A2981D1070021E929 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				2F2325122981CDFD0021E929 /* Domain.framework */,
+				2F2325592981D1070021E929 /* CleanApp.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		2F2325132981CDFD0021E929 /* Domain */ = {
+		2F23255B2981D1070021E929 /* CleanApp */ = {
 			isa = PBXGroup;
 			children = (
-				2F23251F2981CF3B0021E929 /* AccountModel.swift */,
-				2F2325212981CF850021E929 /* AddAccount.swift */,
+				2F23255C2981D1070021E929 /* CleanApp.h */,
+				2F23255D2981D1070021E929 /* CleanApp.docc */,
 			);
-			path = Domain;
+			path = CleanApp;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		2F23250D2981CDFD0021E929 /* Headers */ = {
+		2F2325542981D1070021E929 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2F23255F2981D1070021E929 /* CleanApp.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		2F2325112981CDFD0021E929 /* Domain */ = {
+		2F2325582981D1070021E929 /* CleanApp */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2F2325182981CDFD0021E929 /* Build configuration list for PBXNativeTarget "Domain" */;
+			buildConfigurationList = 2F2325622981D1070021E929 /* Build configuration list for PBXNativeTarget "CleanApp" */;
 			buildPhases = (
-				2F23250D2981CDFD0021E929 /* Headers */,
-				2F23250E2981CDFD0021E929 /* Sources */,
-				2F23250F2981CDFD0021E929 /* Frameworks */,
-				2F2325102981CDFD0021E929 /* Resources */,
+				2F2325542981D1070021E929 /* Headers */,
+				2F2325552981D1070021E929 /* Sources */,
+				2F2325562981D1070021E929 /* Frameworks */,
+				2F2325572981D1070021E929 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = Domain;
-			productName = Domain;
-			productReference = 2F2325122981CDFD0021E929 /* Domain.framework */;
+			name = CleanApp;
+			productName = CleanApp;
+			productReference = 2F2325592981D1070021E929 /* CleanApp.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		2F2324F82981CDC50021E929 /* Project object */ = {
+		2F2325502981D1070021E929 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastUpgradeCheck = 1410;
 				TargetAttributes = {
-					2F2325112981CDFD0021E929 = {
+					2F2325582981D1070021E929 = {
 						CreatedOnToolsVersion = 14.1;
-						LastSwiftMigration = 1410;
 					};
 				};
 			};
-			buildConfigurationList = 2F2324FB2981CDC50021E929 /* Build configuration list for PBXProject "CleanApp" */;
+			buildConfigurationList = 2F2325532981D1070021E929 /* Build configuration list for PBXProject "CleanApp" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -107,18 +107,18 @@
 				en,
 				Base,
 			);
-			mainGroup = 2F2324F72981CDC50021E929;
-			productRefGroup = 2F2325022981CDC50021E929 /* Products */;
+			mainGroup = 2F23254F2981D1070021E929;
+			productRefGroup = 2F23255A2981D1070021E929 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				2F2325112981CDFD0021E929 /* Domain */,
+				2F2325582981D1070021E929 /* CleanApp */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		2F2325102981CDFD0021E929 /* Resources */ = {
+		2F2325572981D1070021E929 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -128,19 +128,18 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		2F23250E2981CDFD0021E929 /* Sources */ = {
+		2F2325552981D1070021E929 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2F2325202981CF3B0021E929 /* AccountModel.swift in Sources */,
-				2F2325222981CF850021E929 /* AddAccount.swift in Sources */,
+				2F23255E2981D1070021E929 /* CleanApp.docc in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		2F2325082981CDC50021E929 /* Debug */ = {
+		2F2325602981D1070021E929 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -203,7 +202,7 @@
 			};
 			name = Debug;
 		};
-		2F2325092981CDC50021E929 /* Release */ = {
+		2F2325612981D1070021E929 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -260,12 +259,10 @@
 			};
 			name = Release;
 		};
-		2F2325192981CDFD0021E929 /* Debug */ = {
+		2F2325632981D1070021E929 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -276,27 +273,23 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
-					"@executable_path/../Frameworks",
+					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 13.0;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = gabrielaProject.Domain;
+				PRODUCT_BUNDLE_IDENTIFIER = gabrielaProject.CleanApp;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		2F23251A2981CDFD0021E929 /* Release */ = {
+		2F2325642981D1070021E929 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -307,42 +300,41 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
-					"@executable_path/../Frameworks",
+					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 13.0;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = gabrielaProject.Domain;
+				PRODUCT_BUNDLE_IDENTIFIER = gabrielaProject.CleanApp;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		2F2324FB2981CDC50021E929 /* Build configuration list for PBXProject "CleanApp" */ = {
+		2F2325532981D1070021E929 /* Build configuration list for PBXProject "CleanApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				2F2325082981CDC50021E929 /* Debug */,
-				2F2325092981CDC50021E929 /* Release */,
+				2F2325602981D1070021E929 /* Debug */,
+				2F2325612981D1070021E929 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2F2325182981CDFD0021E929 /* Build configuration list for PBXNativeTarget "Domain" */ = {
+		2F2325622981D1070021E929 /* Build configuration list for PBXNativeTarget "CleanApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				2F2325192981CDFD0021E929 /* Debug */,
-				2F23251A2981CDFD0021E929 /* Release */,
+				2F2325632981D1070021E929 /* Debug */,
+				2F2325642981D1070021E929 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 2F2324F82981CDC50021E929 /* Project object */;
+	rootObject = 2F2325502981D1070021E929 /* Project object */;
 }
